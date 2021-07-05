@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section
+      class="
+        container
+        mx-auto
+        my-16
+        mx-4
+        flex flex-col lg:flex-row-reverse
+        justify-center
+        w-4/6 lg:w-4/5
+        h-auto
+        justify-center
+        content-center
+        mt-16
+        rounded-md
+        mb-16
+      "
+    >
+      <picture class="imagess rounded-tl-md rounded-tr-md lg:rounded-tr-md lg:rounded-br-md lg:rounded-tl-none lg:rounded-bl-none">
+        <source
+          srcset="./images/image-header-mobile.jpg"
+          media="(min-width: 800px)"
+        >
+        <img
+          class="mix-blend-overlay object-fit w-full h-full lg:rounded-tr-md lg:rounded-br-md lg:rounded-tl-none lg:rounded-bl-none" 
+          src="./images/image-header-mobile.jpg"
+          alt=""
+        />
+      </picture>
+        <div><div class="title font-bold text-xl text-center mt-4 mx-1 px-4 leading-5 lg:text-3xl lg:text-left lg:mt-12 lg:ml-5 lg:pr-16 ">
+        Get <span id="ins">insights</span> that help your business grow.
+      </div>
+
+      <div class="main font-light text-xs text-center px-4 mt-3 lg:text-sm lg:text-left lg:mx-5 lg:pr-32 lg:mt-8">
+        Discover the benefits of data analytics and make better decisions
+        regarding revenue, customer experience, and overall efficiency.
+      </div>
+      <div>
+      <ul class="font-bold text-xl text-center mt-5 mx-5 px-4 mb-4 title lg:text-left">
+        <li class="mb-4 text-center lg:inline-block lg:mr-7 lg:text-left">
+          10k+ <span class="st block -mt-1 font-light uppercase">Companies</span>
+        </li>
+        <li class="mb-4 text-center lg:inline-block lg:mx-5 lg:text-left">
+          314 <span class="st block font-light -mt-1 uppercase">templates</span>
+        </li>
+        <li class="mb-4 text-center lg:inline-block lg:mx-7 lg:text-left">
+          12M+<span class="st block font-light uppercase -mt-1">Queries</span>
+        </li>
+      </ul>
+      </div>
+    </section>
+    
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>-->
+  </body>
+</html>
